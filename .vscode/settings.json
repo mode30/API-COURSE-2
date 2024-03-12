@@ -1,5 +1,8 @@
 {
   "[python]": {
     "editor.defaultFormatter": null
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": null
   }
 }
