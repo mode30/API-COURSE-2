@@ -50,3 +50,6 @@ class UserProfile(AbstractBaseUser,PermissionsMixin):
     def __str__(self):
         """retrive string representation of name and other attributes """
         return f'{self.name} {self.email} {self.is_staff} {self.is_active}'
+    class Meta:
+        
+        verbose_name_plural = 'SuperUser Profile'
